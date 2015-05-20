@@ -12,7 +12,7 @@
          bootstrap="vendor/autoload.php"
 >
     <testsuites>
-        <testsuite name="With Test Suite">
+        <testsuite name="mLogger Test Suite">
             <file>./test/test.php</file>
         </testsuite>
     </testsuites>
