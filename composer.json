@@ -1,0 +1,23 @@
+{
+    "name": "tyler-king/mlogger",
+    "type": "library",
+    "description": "PHP function for mLogger",
+    "keywords": ["logger", "log"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tyler King",
+            "email": "tyler.n.king@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "5.0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*@dev"
+    },
+    "autoload": {
+        "files": ["src/TylerKing/mLogger.php"]
+    }
+}
